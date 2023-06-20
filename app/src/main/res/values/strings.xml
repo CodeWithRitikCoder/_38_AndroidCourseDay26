@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Project 26 of Android Dev_How to use Fragments</string>
+    <string name="welcome_back">Welcome \nback..!</string>
+    <string name="fragments_in_android_application">Fragments in Android \nApplication</string>
+    <string name="validate">Validate</string>
+    <string name="sheet">Sheet</string>
+    <string name="clock">Clock</string>
+    <string name="analog_clock">Analog Clock</string>
+    <string name="income_sheet">Income Sheet</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login_here">Login Here</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_main2_bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="100sp"
+        android:layout_margin="20sp"
+        android:backgroundTint="#FFEB3B">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonForClock"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                android:text="@string/clock" />
+
+            <Button
+                android:id="@+id/buttonForSheet"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:textSize="18sp"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                android:text="@string/sheet" />
+
+            <Button
+                android:id="@+id/buttonForValidate"
+                android:layout_width="115dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:textSize="18sp"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                android:text="@string/validate" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="380dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:background="@color/white"/>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="80sp"
+            android:layout_marginStart="5dp"
+            app:srcCompat="@drawable/android_logo" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            app:srcCompat="@drawable/waves" />
+
+    </FrameLayout>
+
+</LinearLayout>
